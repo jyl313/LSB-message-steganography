@@ -16,10 +16,12 @@ def convert_msg(msg):
     binary_msg+='1'
     return binary_msg
 
+# Change last bit of image pixel to message bit
 def change_bit(img_pix, msg_bit):
     new_pix = int(img_pix[:-1] + str(msg_bit), 2)
     return new_pix
 
+# Encode message to image
 def encode_msg(msg, img):
     binary_msg = convert_msg(msg)
     shape, img = load_image(img)
@@ -29,6 +31,7 @@ def encode_msg(msg, img):
     
     return Image.fromarray(np.reshape(img, shape))
         
+# Decode encoded message in image    
 def decode_msg(img):
     shape, img = load_image(img)
     extract_char = ''
@@ -42,14 +45,14 @@ def decode_msg(img):
             extract_char = ''
         extract_char+=bin(img[i])[-1]
     return msg
-    
+        
 if __name__=="__main__":
     opt = input("1: Encode, 2: Decode\n")
     if opt == '1':
         img = input("Enter image to be encoded(with extension): ")
         msg = input("Enter secret message to encode: ")
         img = encode_msg(msg, img)
-        img.save(input("Enter filename to save encoded image: ") + ".png")
+        img.save(input("Enter filename to save encoded image(without extension): ") + ".png")
     elif opt == '2':
         img = input("Enter image to be decoded(with extension): ")
         print("Secret Message: {}".format(decode_msg(img)))
