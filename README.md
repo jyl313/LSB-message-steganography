@@ -1,5 +1,5 @@
 # LSB-message-steganography
-Simple implementation of Least Significant Bit(LSB) message steganography
+Simple implementation of Least Significant Bit Replacement(LSBR) message steganography
 
 ### Requirements
 - Windows 10 x64
