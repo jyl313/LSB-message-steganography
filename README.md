@@ -1,7 +1,8 @@
 # LSB-message-steganography
 Simple implementation of Least Significant Bit(LSB) message steganography
 
-### Requirements*
+### Requirements
+- Windows 10 x64
 - Python 3
 - Pillow
 - Numpy
