@@ -11,7 +11,7 @@ Simple implementation of Least Significant Bit Replacement(LSBR) message stegano
 ### Code execution
 The following will run through the code execution in steps of inputs to enter and expected output
 
-1) Execute `python LSB_msg.py` in command prompt
+1) Execute `python lsbr_msg.py` in command prompt
 2) A prompt will ask user to enter:
 > - **1** for message encoding
 > - **2** for message decoding
