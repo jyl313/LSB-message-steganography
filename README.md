@@ -26,4 +26,5 @@ The following will run through the code execution in steps of inputs to enter an
 6) The embedded message(if any) will be shown as output
 
 ### Sample images
-Sample images(taken from Windows10 wallpapers) are provided for use
+BOSS dataset: http://dde.binghamton.edu/download/ImageDB/BOSSbase_1.01.zip
+BOWS-2 dataset: http://bows2.ec-lille.fr/BOWS2OrigEp3.tgz
