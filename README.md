@@ -26,5 +26,5 @@ The following will run through the code execution in steps of inputs to enter an
 6) The embedded message(if any) will be shown as output
 
 ### Sample images
-BOSS dataset: http://dde.binghamton.edu/download/ImageDB/BOSSbase_1.01.zip
-BOWS-2 dataset: http://bows2.ec-lille.fr/BOWS2OrigEp3.tgz
+> - BOSS dataset: http://dde.binghamton.edu/download/ImageDB/BOSSbase_1.01.zip
+> - BOWS-2 dataset: http://bows2.ec-lille.fr/BOWS2OrigEp3.tgz
