@@ -1,4 +1,4 @@
-# LSB-message-steganography
+# LSBR-message-steganography
 Simple implementation of Least Significant Bit Replacement(LSBR) message steganography
 
 ### Requirements
